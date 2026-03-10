@@ -10,7 +10,7 @@ gdjs.evtsExt__Collision3D__SqDistanceToPosition.idToCallbackMap = new Map();
 gdjs.evtsExt__Collision3D__SqDistanceToPosition.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Collision3D__SqDistanceToPosition.userFunc0x1ce4ec8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Collision3D__SqDistanceToPosition.userFunc0x151af98 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 if (objects.length > 0) {
@@ -30,7 +30,7 @@ gdjs.evtsExt__Collision3D__SqDistanceToPosition.eventsList0 = function(runtimeSc
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Collision3D__SqDistanceToPosition.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Collision3D__SqDistanceToPosition.GDObjectObjects1;
-gdjs.evtsExt__Collision3D__SqDistanceToPosition.userFunc0x1ce4ec8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Collision3D__SqDistanceToPosition.userFunc0x151af98(runtimeScene, objects, eventsFunctionContext);
 
 }
 

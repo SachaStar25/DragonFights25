@@ -20,7 +20,7 @@ gdjs.evtsExt__A3F__LocalRotateAngle.GDObjectObjects2= [];
 gdjs.evtsExt__A3F__LocalRotateAngle.GDObjectObjects3= [];
 
 
-gdjs.evtsExt__A3F__LocalRotateAngle.userFunc0x1424078 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__LocalRotateAngle.userFunc0x203e870 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Object2D = objects[0];
 const Object3D = Object2D.get3DRendererObject();
@@ -53,7 +53,7 @@ gdjs.copyArray(gdjs.evtsExt__A3F__LocalRotateAngle.GDObjectObjects2, gdjs.evtsEx
 
 
 const objects = gdjs.evtsExt__A3F__LocalRotateAngle.GDObjectObjects3;
-gdjs.evtsExt__A3F__LocalRotateAngle.userFunc0x1424078(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__A3F__LocalRotateAngle.userFunc0x203e870(runtimeScene, objects, eventsFunctionContext);
 
 }
 
