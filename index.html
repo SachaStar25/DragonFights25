@@ -224,7 +224,6 @@
 	<script src="Extensions/3D/Cube3DRuntimeObjectPixiRenderer.js" crossorigin="anonymous"></script>
 	<script src="Extensions/3D/Model3DRuntimeObject.js" crossorigin="anonymous"></script>
 	<script src="Extensions/3D/Model3DRuntimeObject3DRenderer.js" crossorigin="anonymous"></script>
-	<script src="Extensions/AdvancedWindow/electron-advancedwindowtools.js" crossorigin="anonymous"></script>
 	<script src="Extensions/AnchorBehavior/anchorruntimebehavior.js" crossorigin="anonymous"></script>
 	<script src="Extensions/DebuggerTools/debuggertools.js" crossorigin="anonymous"></script>
 	<script src="Extensions/DeviceVibration/devicevibrationtools.js" crossorigin="anonymous"></script>
@@ -282,6 +281,7 @@
     <img src="loading_screen-Photoroom.webp" style="width:100%; height:100%; object-fit: cover;">
 </div>
 
+
     
 	<script>
 
@@ -302,19 +302,12 @@
     })();
 
 	</script>
-	    <!-- Тут какой-то код твоей игры или заставки... -->
-
-    <script>
-      // Тот самый скрипт для кэша, который я дал:
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js')
-          .then(() => console.log("Кэширование Dragon Fights запущено!"))
-          .catch(err => console.error("Ошибка кэша:", err));
-      }
-    </script>
-
-  </body> <!-- ВОТ ОН, ЗАКРЫВАЮЩИЙ ТЕГ БАДИ -->
-</html>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log("Кэширование Dragon Fights запущено!"))
+      .catch(err => console.error("Ошибка кэша:", err));
+  }
+</script>
 </body>
 </html>
