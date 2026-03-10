@@ -173,7 +173,7 @@ gdjs._1058_1077_1084_1072Code.GD_951054_951073_951086_951080_951044_951083_95110
 gdjs._1058_1077_1084_1072Code.GD_951054_951073_951086_951080_951044_951083_951103_951050_951074_951077_951089_951090_951086_951074Objects2= [];
 
 
-gdjs._1058_1077_1084_1072Code.userFunc0x3653fe0 = function GDJSInlineCode(runtimeScene) {
+gdjs._1058_1077_1084_1072Code.userFunc0x3c561c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Находим наш прелоадер
 const loader = document.getElementById('custom-preloader');
@@ -444,7 +444,7 @@ gdjs.copyArray(runtimeScene.getObjects("ФонДляПерехода"), gdjs._10
 {
 
 
-gdjs._1058_1077_1084_1072Code.userFunc0x3653fe0(runtimeScene);
+gdjs._1058_1077_1084_1072Code.userFunc0x3c561c0(runtimeScene);
 
 }
 
